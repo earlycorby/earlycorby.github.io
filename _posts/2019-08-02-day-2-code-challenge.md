@@ -1,6 +1,6 @@
 ---
 layout: post
-title "Day 2 of Code Challenge"
+title: "Day 2 of Code Challenge"
 date: 2019-08-02
 ---
 
