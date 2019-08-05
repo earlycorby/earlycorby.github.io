@@ -6,7 +6,7 @@ function loadXMLDoc(){
             myFunction(this);
         }
     };
-    xmlhttp.open("GET", "C:/Users/Anne/Downloads/IDV10752.xml", true);
+    xmlhttp.open("GET", "/test_data/IDV10752.xml", true);
     xmlhttp.send();
 }
 
