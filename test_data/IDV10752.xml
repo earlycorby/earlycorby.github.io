@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>Victoria</region>
+            <office>VICRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDV10752</identifier>
+        <issue-time-utc>2019-08-04T19:30:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2019-08-05T05:30:00+10:00</issue-time-local>
+        <sent-time>2019-08-04T19:31:40Z</sent-time>
+        <expiry-time>2019-08-05T19:30:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2019-08-05T00:00:00+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2019-08-11T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2019-08-05T06:30:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2019-08-05T16:30:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FTW</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="VIC_FA001" description="Victoria" type="region"/>
+        <area aac="VIC_PW001" description="Mallee" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT043" description="Mildura" type="location" parent-aac="VIC_PW001">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Sunny. Patchy light frost early this morning. Light winds.</text>
+                <text type="uv_alert">Sun protection 11:40am to 1:40pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Sunny. Light winds becoming northerly 20 to 25 km/h in the morning then tending northwesterly 15 to 25 km/h in the middle of the day.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower in the evening. Light winds becoming northwesterly 15 to 20 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers, most likely in the evening. Gusty winds and possible hail in the afternoon. Winds west to northwesterly 25 to 40 km/h.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers. Winds westerly 25 to 35 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Slight (30%) chance of a shower. Winds westerly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower. Light winds becoming west to southwesterly 20 to 25 km/h during the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT071" description="Swan Hill" type="location" parent-aac="VIC_PW001">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds.</text>
+                <text type="uv_alert">Sun protection 11:50am to 1:10pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Mostly sunny morning. Slight (20%) chance of a shower in the afternoon and evening. Light winds becoming northerly 20 to 30 km/h in the morning then becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers, most likely in the evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (80%) chance of showers, most likely in the evening. The chance of a thunderstorm in the afternoon. Gusty winds and possible hail. Winds west to northwesterly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (70%) chance of showers, most likely during the morning with gusty winds and possible hail. Winds northwesterly 20 to 25 km/h tending westerly 25 to 35 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers, most likely during the morning. Winds westerly 20 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (40%) chance of showers, most likely later in the day. Winds westerly 15 to 20 km/h tending northwesterly during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW002" description="Wimmera" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT029" description="Horsham" type="location" parent-aac="VIC_PW002">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Possible morning fog patches then a mostly sunny day. Winds north to northwesterly 20 to 25 km/h becoming light in the late afternoon.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely from the late morning. The chance of a thunderstorm in the late afternoon and evening. Winds north to northwesterly 20 to 30 km/h becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Morning fog. Very high (90%) chance of showers, most likely in the evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the morning. Possible hail in the morning and afternoon. Winds west to northwesterly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Gusty winds and possible hail. Winds westerly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning. Light winds becoming westerly 20 to 25 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers. Winds west to southwesterly 15 to 20 km/h turning northwesterly during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW003" description="Northern Country" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT008" description="Bendigo" type="location" parent-aac="VIC_PW003">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds becoming northwesterly 15 to 20 km/h in the morning then becoming light in the middle of the day.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers, most likely in the afternoon and evening. Light winds becoming northeasterly 15 to 25 km/h early in the morning then tending northerly in the morning.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Patchy morning fog. High (70%) chance of showers, most likely in the evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm in the morning and afternoon. Possible hail in the morning and afternoon. Light winds becoming west to northwesterly 15 to 25 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning. Possible hail. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely during the morning. Winds westerly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers, most likely later in the day. Winds westerly 15 to 20 km/h tending northwesterly during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT068" description="Shepparton" type="location" parent-aac="VIC_PW003">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Patchy fog in the early morning. Partly cloudy. Medium (40%) chance of showers, most likely in the evening. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely in the morning. The chance of a thunderstorm in the morning and afternoon. Possible hail in the morning and afternoon. Light winds becoming west to northwesterly 20 to 25 km/h during the morning then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning. Possible hail. Winds northwesterly 15 to 25 km/h tending westerly 20 to 30 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely during the morning. Light winds becoming westerly 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers, most likely later in the day. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT019" description="Echuca" type="location" parent-aac="VIC_PW003">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Mostly sunny morning. Slight (30%) chance of a shower in the afternoon and evening. Light winds becoming north to northeasterly 15 to 20 km/h in the morning then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. The chance of a thunderstorm in the morning and afternoon. Possible hail in the morning and afternoon. Light winds becoming west to northwesterly 15 to 25 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely during the morning with gusty winds. Possible hail. Winds northwesterly 15 to 25 km/h tending westerly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (50%) chance of showers, most likely during the morning. Light winds becoming westerly 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW008" description="North Central" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT066" description="Seymour" type="location" parent-aac="VIC_PW008">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers, most likely in the late afternoon and evening. Light winds becoming north to northeasterly 20 to 30 km/h in the morning then becoming light in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely in the evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm in the morning and afternoon. Possible hail in the morning and afternoon. Winds northwest to northeasterly 15 to 20 km/h becoming northwesterly 15 to 25 km/h during the morning then tending northerly 15 to 20 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning with gusty winds. Possible hail. Winds northwesterly 20 to 30 km/h tending westerly during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely during the morning. Winds westerly 15 to 20 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely later in the day. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW004" description="North East" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT084" description="Albury-Wodonga" type="location" parent-aac="VIC_PW004">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. The chance of fog early this morning. Slight (20%) chance of a shower. Light winds.</text>
+                <text type="uv_alert">Sun protection 12:00pm to 1:00pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Morning fog and frost. Partly cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (50%) chance of showers, most likely in the afternoon and evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (near 100%) chance of showers. The chance of a thunderstorm in the afternoon. Possible hail in the morning and afternoon. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, most likely during the morning. Possible hail. Winds northwesterly 15 to 25 km/h tending westerly 20 to 25 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Winds westerly 15 to 20 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT075" description="Wangaratta" type="location" parent-aac="VIC_PW004">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. The chance of fog early this morning. Slight (20%) chance of a shower. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Patchy fog in the early morning. Partly cloudy. Slight (30%) chance of a shower in the late afternoon and evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely in the morning and afternoon. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, most likely in the morning. The chance of a thunderstorm in the afternoon. Possible hail in the morning and afternoon. Light winds becoming west to northwesterly 15 to 20 km/h during the day then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, with possible hail. Winds northwesterly 15 to 25 km/h tending westerly 20 to 30 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning. Winds westerly 15 to 20 km/h becoming light during the morning then becoming westerly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT046" description="Mount Buller" type="location" parent-aac="VIC_PW004">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. Slight (20%) chance of a shower. Winds northwesterly 15 to 20 km/h turning northeasterly in the late evening.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of snow showers, most likely in the late afternoon and evening. Winds northeasterly 20 to 30 km/h tending northerly 30 to 40 km/h in the middle of the day then tending northwesterly in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of snow showers, most likely in the afternoon and evening. Gusty winds in the evening. Winds northwesterly 30 to 45 km/h tending northerly 40 to 50 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, with gusty winds. Winds northerly 40 to 50 km/h tending northwesterly during the morning then tending westerly 35 to 45 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, with gusty winds. Winds westerly 35 to 55 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, most likely during the morning. Winds west to southwesterly 35 to 45 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of snow showers. Winds southwesterly 30 to 35 km/h turning west to northwesterly 25 to 40 km/h during the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT048" description="Mount Hotham" type="location" parent-aac="VIC_PW004">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. Light winds becoming west to northwesterly 15 to 20 km/h in the middle of the day then tending north to northwesterly in the early afternoon.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of snow showers, most likely in the late afternoon and evening. Winds north to northwesterly 25 to 40 km/h increasing to 35 to 45 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of snow showers, most likely in the afternoon and evening. Gusty winds in the evening. Winds northwesterly 40 to 60 km/h.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, with gusty winds. Winds north to northwesterly 50 to 60 km/h tending west to northwesterly 45 to 55 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, with gusty winds. Winds northwest to southwesterly 40 to 60 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, most likely during the morning. Winds west to southwesterly 40 to 50 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of snow showers. Winds northwest to southwesterly 30 to 45 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT022" description="Falls Creek" type="location" parent-aac="VIC_PW004">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. Light winds becoming westerly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (40%) chance of snow showers in the late afternoon and evening. Winds northwesterly and light increasing to 20 to 25 km/h in the morning then tending north to northwesterly 30 to 35 km/h in the early afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of snow showers, most likely in the afternoon and evening. Gusty winds in the evening. Winds northwesterly 35 to 50 km/h.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, with gusty winds. Winds northwesterly 40 to 50 km/h tending westerly 35 to 45 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, with gusty winds. Winds northwest to southwesterly 40 to 55 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of snow showers, most likely during the morning. Winds west to southwesterly 35 to 45 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of snow showers. Winds westerly 25 to 35 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW009" description="South West" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT077" description="Warrnambool" type="location" parent-aac="VIC_PW009">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (40%) chance of showers late this afternoon and evening. Winds north to northwesterly 20 to 30 km/h.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely in the morning and afternoon. Winds northerly 20 to 30 km/h increasing to 30 to 40 km/h in the morning then shifting southwesterly 15 to 25 km/h in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the afternoon and evening. Light winds becoming northeasterly 15 to 20 km/h during the afternoon then tending northerly during the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm in the morning and afternoon. Possible hail. Winds west to northwesterly 25 to 40 km/h.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm during the morning. Gusty winds and possible hail. Winds northwesterly 35 to 45 km/h tending westerly 35 to 50 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Winds westerly 30 to 40 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Winds westerly 25 to 30 km/h turning southwesterly during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT014" description="Colac" type="location" parent-aac="VIC_PW009">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower late this afternoon and evening. Winds northerly 15 to 20 km/h tending northwesterly 20 to 25 km/h in the morning then becoming light in the evening.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely from the late morning. Winds northerly 25 to 35 km/h tending northwesterly in the middle of the day then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the afternoon and evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm in the morning and afternoon. Possible hail. Winds west to northwesterly 20 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Gusty winds and possible hail. Winds northwesterly 20 to 25 km/h turning westerly 25 to 35 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Winds westerly 20 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Winds westerly 15 to 20 km/h becoming light during the morning then becoming westerly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT027" description="Hamilton" type="location" parent-aac="VIC_PW009">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Mostly sunny day. Slight (20%) chance of a shower late this afternoon and evening. Winds north to northwesterly 20 to 30 km/h.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely in the morning and afternoon. Winds north to northwesterly 25 to 40 km/h shifting southwesterly 20 to 25 km/h in the late afternoon then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Morning fog. High (80%) chance of showers, most likely in the afternoon and evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, most likely in the afternoon and evening. The chance of a thunderstorm in the morning and afternoon. Possible hail. Winds west to northwesterly 20 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, with possible hail. Winds northwesterly 15 to 20 km/h tending westerly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, most likely during the morning. Light winds becoming westerly 20 to 25 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Light winds becoming northwest to southwesterly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW007" description="Central" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT005" description="Ballarat" type="location" parent-aac="VIC_PW007">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Winds north to northwesterly 20 to 30 km/h.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the afternoon and evening. Winds northerly 25 to 40 km/h tending northwesterly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 20 to 30 km/h during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, most likely in the morning. The chance of a thunderstorm in the morning and afternoon. Possible hail in the morning and afternoon. Winds northerly 25 to 30 km/h turning west to northwesterly during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Gusty winds and possible hail. Winds northwesterly 30 to 35 km/h tending westerly 25 to 40 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning. Winds westerly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Winds westerly 20 to 25 km/h tending southwesterly 15 to 20 km/h later.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT047" description="Mount Dandenong" type="location" parent-aac="VIC_PW007">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Winds northwest to northeasterly 20 to 25 km/h tending northwesterly in the early afternoon then tending northerly 25 to 35 km/h in the late afternoon.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers. Winds northerly 30 to 40 km/h increasing to 40 to 50 km/h in the morning then tending northwesterly 25 to 30 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the afternoon and evening. Light winds becoming northerly 20 to 30 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm in the morning and afternoon. Possible hail. Winds northerly 25 to 30 km/h turning west to northwesterly during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning with gusty winds. Possible hail. Winds northwesterly 30 to 35 km/h tending westerly 30 to 40 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Winds westerly 25 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Winds west to northwesterly 20 to 25 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT081" description="Wonthaggi" type="location" parent-aac="VIC_PW007">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Winds north to northwesterly 20 to 25 km/h becoming light in the late afternoon then becoming northerly 20 to 25 km/h in the evening.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the late afternoon and evening. Winds north to northwesterly 25 to 35 km/h increasing to 40 to 50 km/h in the morning then turning westerly 20 to 25 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the afternoon and evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm in the morning and afternoon. Possible hail. Winds northerly 15 to 20 km/h tending northwesterly 20 to 30 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. The chance of a thunderstorm during the morning. Gusty winds and possible hail. Winds northwesterly 30 to 35 km/h tending westerly 30 to 45 km/h during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers. Winds west to northwesterly 25 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning. Winds northwest to southwesterly 15 to 25 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW006" description="West and South Gippsland" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT036" description="Latrobe Valley" type="location" parent-aac="VIC_PW006">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers. Light winds becoming northwesterly 20 to 25 km/h in the early afternoon then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Patchy morning fog. High (70%) chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. The chance of a thunderstorm in the afternoon. Possible hail in the morning and afternoon. Light winds becoming northwesterly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (95%) chance of showers, with gusty winds and possible hail. Winds northwesterly 20 to 25 km/h tending westerly 25 to 30 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Winds westerly 20 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers, most likely during the morning. Winds westerly 15 to 20 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT064" description="Sale" type="location" parent-aac="VIC_PW006">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (50%) chance of showers. Light winds becoming north to northwesterly 20 to 25 km/h in the morning then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Patchy morning fog. Medium (60%) chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (70%) chance of showers. The chance of a thunderstorm in the afternoon. Possible hail in the morning and afternoon. Light winds becoming west to northwesterly 15 to 25 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, with gusty winds and possible hail. Winds northwesterly 20 to 30 km/h tending westerly 30 to 35 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers. Winds westerly 25 to 35 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely during the morning. Winds westerly 15 to 25 km/h.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW005" description="East Gippsland" type="public-district" parent-aac="VIC_FA001"/>
+        <area aac="VIC_PT004" description="Bairnsdale" type="location" parent-aac="VIC_PW005">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (40%) chance of showers. Light winds becoming north to northwesterly 15 to 25 km/h in the middle of the day then becoming light in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (40%) chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers, with possible hail in the afternoon and evening. The chance of a thunderstorm in the afternoon. Light winds becoming north to northwesterly 15 to 20 km/h during the morning then tending west to northwesterly 20 to 25 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (80%) chance of showers, with gusty winds and possible hail. Winds west to northwesterly 25 to 35 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers. Winds westerly 20 to 30 km/h tending northwesterly 20 to 25 km/h later.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers. Winds northwesterly 20 to 25 km/h tending westerly 15 to 20 km/h during the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT054" description="Orbost" type="location" parent-aac="VIC_PW005">
+            <forecast-period index="0" start-time-local="2019-08-05T00:00:00+10:00" end-time-local="2019-08-06T00:00:00+10:00" start-time-utc="2019-08-04T14:00:00Z" end-time-utc="2019-08-05T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2019-08-06T00:00:00+10:00" end-time-local="2019-08-07T00:00:00+10:00" start-time-utc="2019-08-05T14:00:00Z" end-time-utc="2019-08-06T14:00:00Z">
+                <text type="forecast">Mostly sunny morning. Slight (20%) chance of a shower in the late afternoon and evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2019-08-07T00:00:00+10:00" end-time-local="2019-08-08T00:00:00+10:00" start-time-utc="2019-08-06T14:00:00Z" end-time-utc="2019-08-07T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2019-08-08T00:00:00+10:00" end-time-local="2019-08-09T00:00:00+10:00" start-time-utc="2019-08-07T14:00:00Z" end-time-utc="2019-08-08T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (70%) chance of showers, most likely in the morning. The chance of a thunderstorm in the afternoon. Light winds becoming west to northwesterly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2019-08-09T00:00:00+10:00" end-time-local="2019-08-10T00:00:00+10:00" start-time-utc="2019-08-08T14:00:00Z" end-time-utc="2019-08-09T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (80%) chance of showers, most likely later in the day with gusty winds. Possible hail. Winds northwesterly 20 to 30 km/h increasing to 35 km/h before turning westerly 25 to 30 km/h later.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2019-08-10T00:00:00+10:00" end-time-local="2019-08-11T00:00:00+10:00" start-time-utc="2019-08-09T14:00:00Z" end-time-utc="2019-08-10T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely during the morning. Winds west to northwesterly 25 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2019-08-11T00:00:00+10:00" end-time-local="2019-08-12T00:00:00+10:00" start-time-utc="2019-08-10T14:00:00Z" end-time-utc="2019-08-11T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers, most likely later in the day. Winds northwesterly 20 to 25 km/h tending westerly during the morning.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
