@@ -10,6 +10,8 @@
     <h2>Using the XMLHttpRequest Object</h2>
     <div id="demo">
         <button type="button" onclick="loadXMLDoc()">Load content</button>
+        </div>
+    <div id="demo2">
         <button type="button" onclick="getLocations()"> Get locations</button>
     </div>
 
@@ -45,7 +47,7 @@
             for (i = 0; i < x.length; i++) {
                 txt += x[i].childNodes[0].nodeValue + "<br>";
             }
-            document.getElementById("demo").innerHTML = txt;
+            document.getElementById("demo2").innerHTML = txt;
         }
     </script>
 </body>
