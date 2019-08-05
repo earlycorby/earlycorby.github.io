@@ -28,22 +28,22 @@
             xhttp.send();
         }
         function getLocations() {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
 
                     myFunction(this);
                 }
             };
-            xhttp.open("GET", "../test_data/IDV10752.xml", true);
-            xhttp.send();
+            xmlhttp.open("GET", "../test_data/cd_catalog.xml", true);
+            xmlhttp.send();
         }
 
         function myFunction(xml) {
             var x, i, xmlDoc, txt;
             xmlDoc = xml.reponseXML;
             txt = "";
-            x = xmlDoc.getElementsByTagName("area");
+            x = xmlDoc.getElementsByTagName("ARTIST");
             for (i = 0; i < x.length; i++) {
                 txt += x[i].childNodes[0].nodeValue + "<br>";
             }
