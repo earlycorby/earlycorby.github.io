@@ -36,7 +36,7 @@
                     myFunction(this);
                 }
             };
-            xmlhttp.open("GET", "../test_data/cd_catalog.xml", true);
+            xmlhttp.open("GET", "../test_data/IDV10752.xml", true);
             xmlhttp.send();
         }
 
@@ -44,7 +44,7 @@
   var x, i, xmlDoc, txt;
   xmlDoc = xml.responseXML;
   txt = "";
-  x = xmlDoc.getElementsByTagName("ARTIST");
+  x = xmlDoc.getElementsByTagName("area");
   for (i = 0; i< x.length; i++) {
     txt += x[i].childNodes[0].nodeValue + "<br>";
   }
