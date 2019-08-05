@@ -12,7 +12,7 @@
         <button type="button" onclick="loadXMLDoc()">Load content</button>
         
    
-        <button type="button" onclick="getLocations()"> Get locations</button>
+        <button type="button" onclick="getLocations()"> Get text</button>
     
     <p id="demo"></p>
 
@@ -44,7 +44,7 @@
   var x, i, xmlDoc, txt;
   xmlDoc = xml.responseXML;
   txt = "";
-  x = xmlDoc.getElementsByTagName("sender");
+  x = xmlDoc.getElementsByTagName("text");
   for (i = 0; i< x.length; i++) {
     txt += x[i].childNodes[0].nodeValue + "<br>";
   }
