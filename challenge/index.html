@@ -14,6 +14,6 @@ title: The Challenge
 <ul class="challenges">
 
     {% for challenge in site.challenges %}
-    <li><span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+     <a href="{{ challenge.url }}" title="{{ challenge.title }}">{{ challenge.title }}</a></li>
     {% endfor %}
 </ul>
