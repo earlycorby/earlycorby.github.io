@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <title>Working with JSON</title>
+</head>
+<body>
+    This should print 
+    <p id="demo"></p>
+    <script>
+       
+            
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var myObj = JSON.parse(this.responseText);
+                    document.getElementById("demo").innerHTML = myObj.cod;
+                }
+            };
+            xhttp.open("GET", "api.openweathermap.org/data/2.5/forecast?id=7839548&APPID=3ed7763e1be26a4fa0d643861ed12b7e", true);
+            //xhttp.open("GET", "../test_data/forecast.json", true);
+            xhttp.send();
+        
+        
+    </script>
+
+</body>
+</html>
