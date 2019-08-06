@@ -13,7 +13,7 @@ title: The Challenge
 	</ul>
 <ul class="challenges">
 
-    {% for post in site.posts %}
+    {% for challenge in site.challenges %}
     <li><span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
