@@ -16,10 +16,10 @@
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     var myObj = JSON.parse(this.responseText);
-                    document.getElementById("demo").innerHTML = myObj.list[0][0];
+                    document.getElementById("demo").innerHTML = myObj.city;
                 }
             };
-            xhttp.open("GET", "https://api.openweathermap.org/data/2.5/forecast?id=7839548&APPID=3ed7763e1be26a4fa0d643861ed12b7e", true);
+            xhttp.open("GET", "https://api.openweathermap.org/data/2.5/forecast?id=7839548&units=metric&APPID=3ed7763e1be26a4fa0d643861ed12b7e", true);
             //xhttp.open("GET", "../test_data/forecast.json", true);
             xhttp.send();
         
