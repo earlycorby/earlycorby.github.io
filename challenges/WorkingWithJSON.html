@@ -7,7 +7,7 @@
     <title>Working with JSON</title>
 </head>
 <body>
-    This should print 
+    <p>This should print today\'s forecast temperature.</p>
     <p id="demo"></p>
     <script>
        
@@ -20,7 +20,6 @@
                 }
             };
             xhttp.open("GET", "https://api.openweathermap.org/data/2.5/forecast?id=7839548&units=metric&APPID=3ed7763e1be26a4fa0d643861ed12b7e", true);
-            //xhttp.open("GET", "../test_data/forecast.json", true);
             xhttp.send();
         
         
