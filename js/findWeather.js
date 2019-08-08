@@ -6,12 +6,19 @@ function getWeather() {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
             for (var i = 0; i < 7; i++) {
-                intermediateTemp = myObj.list[0]['main'][i]['temp'];
-                if (intermediateTemp > temperature){
+                //intermediateTemp = myObj.list[0]['main']['temp'];
+                intermediateTemp = myObj.list[i]['main']['temp'];
+                if (intermediateTemp > temperature) {
                     temperature = intermediateTemp;
                 }
+                document.getElementById("demo").innerHTML = temperature;
+                //document.getElementById("demo").innerHTML = myObj.list[i]['main']['temp'];
+                //if (intermediateTemp > temperature){
+                //    temperature = intermediateTemp;
+ 
+                //}
             }
-            document.getElementById("demo").innerHTML = temperature;
+            //document.getElementById("demo").innerHTML = temperature;
             //document.getElementById("demo").innerHTML = myObj.list.main.temp;
         }
     };
