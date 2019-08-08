@@ -1,10 +1,17 @@
 // JavaScript source code
 function getWeather() {
+    var temperature = -1;
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
-            document.getElementById("demo").innerHTML = myObj.list[0]['main']['temp_max'];
+            for (var i = 0; i < 7; i++) {
+                intermediateTemp = myObj.list[0]['main'][i]['temp'];
+                if (intermediateTemp > temperature){
+                    temperature = intermediateTemp;
+                }
+            }
+            document.getElementById("demo").innerHTML = temperature;
             //document.getElementById("demo").innerHTML = myObj.list.main.temp;
         }
     };
