@@ -12,6 +12,7 @@ function getWeather() {
                     temperature = intermediateTemp;
                 }
                 document.getElementById("demo").innerHTML = temperature;
+                whatClothing(temperature);
                 //document.getElementById("demo").innerHTML = myObj.list[i]['main']['temp'];
                 //if (intermediateTemp > temperature){
                 //    temperature = intermediateTemp;
