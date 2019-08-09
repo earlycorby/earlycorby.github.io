@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day  of Code Challenge"
+title: "Day 9 of Code Challenge"
 date: 2019-08-09
 ---
 Now that we have the maximum temperature for the next 24 hours we can use that to determine what clothes the child should wear.
