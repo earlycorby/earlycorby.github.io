@@ -17,7 +17,7 @@ function getName(gender) {
         // alert(fileOpen.responseText);
         var text = this.responseText;
         //console.log(text);
-        myObj = JSON.parse(text);
+        myObj = getJSON(text);
     };
     fileOpen.open('GET', './babynamesfromAll.json', true);
     fileOpen.send();
@@ -33,7 +33,7 @@ function getName(gender) {
 
     }
 
-    return myObj[0][0];
+   // return myObj[0][0];
 
 
 
