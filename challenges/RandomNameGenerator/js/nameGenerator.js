@@ -33,10 +33,10 @@ function getName(gender) {
 
             }
             //console.log(names);
-
+            return names;
 
         }
-        return names;
+      
     };
     xhttp.open("GET", "./babynamesfromAll.json", true);
     xhttp.send();
