@@ -12,7 +12,7 @@ function getAny() {
 function getName(gender) {
 
     var fileOpen = new XMLHttpRequest();
-    fileOpen.open('GET', 'babynamesfromAll.json');
+    fileOpen.open('GET', './babynamesfromAll.json');
     fileOpen.onreadystatechange = function () {
         alert(fileOpen.responseText);
     }
