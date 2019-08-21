@@ -15,12 +15,12 @@ function getFile() {
     fileOpen.open('GET', './babynamesfromAll.json', true);
     fileOpen.onload = function () {
         // alert(fileOpen.responseText);
-        var text = this.responseText;
-        console.log(typeof(text));
+        //var text = this.responseText;
+        //console.log(typeof(text));
         //return JSON.parse(text);
-        return text;
+        
     };
-    console.log(fileOpen);
+    console.log(fileOpen.responseText);
 
     fileOpen.send();
 }  
