@@ -20,6 +20,7 @@ function getFile() {
         //return JSON.parse(text);
         return text;
     };
+    console.log(fileOpen);
 
     fileOpen.send();
 }  
@@ -36,7 +37,7 @@ function getName(gender) {
 
     }
 
-    console.log(type(myObj));
+   // console.log(type(myObj));
 
 
 
