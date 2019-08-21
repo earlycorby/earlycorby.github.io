@@ -15,7 +15,7 @@ function getName(gender) {
     fileOpen.open('GET', './babynamesfromAll.json');
     fileOpen.onreadystatechange = function () {
         // alert(fileOpen.responseText);
-        myObj = JSON.parse(this.responseText);
+        myObj = JSON.parse(this.responseText.toString());
     }
     fileOpen.send();
     
