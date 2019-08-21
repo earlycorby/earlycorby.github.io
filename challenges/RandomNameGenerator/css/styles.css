@@ -1,4 +1,10 @@
 ﻿body
 {
     background-color: #d24dff;
+
+    h1 {
+           color: gray;
+           font-size:20px;
+           font-family: 'MS PGothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
 }
