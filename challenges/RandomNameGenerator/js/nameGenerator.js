@@ -1,4 +1,4 @@
-// JavaScript source code
+
 var string;
 function getFemale() {
    document.getElementById("result").innerHTML = getName("FEMALE");
@@ -16,27 +16,13 @@ function getFile() {
     xhttp.open('GET', './babynamesfromAll.json', true);
     xhttp.onload = function () {
 
-        var nameArray = xhttp.responseText;
+        var nameArray = xhttp.responseText();
         console.log(nameArray);
 
         
     }
     xhttp.send();
-    
-    
-    //fileOpen.onload = function () {
-        // alert(fileOpen.responseText);
-        //var text = this.responseText;
-        //console.log(typeof(text));
-        //return JSON.parse(text);
-       // string = this.responseText;
-        //console.log(string);
-       // return string;
-   //};
-    //console.log(string);
 
-    ////fileOpen.send();
-    //return string;
 }  
     
 function getName(gender) {
