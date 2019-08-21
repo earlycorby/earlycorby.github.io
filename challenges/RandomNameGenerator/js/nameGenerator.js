@@ -12,24 +12,27 @@ function getAny() {
 
     
 function getName(gender) {
+    var names = [];
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
             for (var i = 0; i < myObj.length; i++) {
-                console.log(myObj[i].gender);
+                var nextGender = myObj[i].gender;
+                var nextName = myObj[i].name;
+
+
+                if (gender === "FEMALE" && nextGender === "FEMALE") {
+                    names.push(nextName);
+                } else if (gender === "MALE" && nextGender === "MALE") {
+                    names.push(nextName);
+                }
+                else {
+                    names.push(nextName);
+                }
+
             }
-            
-
-
-            if (gender === "FEMALE") {
-
-            } else if (gender === "MALE") {
-
-            }
-            else {
-
-            }
+            console.log(names);
 
         }
     };
