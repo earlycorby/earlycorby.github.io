@@ -16,7 +16,7 @@ function getFile() {
     fileOpen.onload = function () {
         // alert(fileOpen.responseText);
         var text = this.responseText;
-        //console.log(typeof(text));
+        console.log(typeof(text));
         //return JSON.parse(text);
         return text;
     };
