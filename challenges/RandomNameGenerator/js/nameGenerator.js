@@ -1,4 +1,5 @@
 // JavaScript source code
+var string;
 function getFemale() {
    document.getElementById("result").innerHTML = getName("FEMALE");
 }
@@ -10,7 +11,7 @@ function getAny() {
 }
 
 function getFile() {
-    var string = "";
+   
     var fileOpen = new XMLHttpRequest();
     fileOpen.open('GET', './babynamesfromAll.json', true);
     fileOpen.onload = function () {
