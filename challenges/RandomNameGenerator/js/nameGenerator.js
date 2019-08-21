@@ -17,7 +17,7 @@ function getFile() {
     xhttp.onload = function () {
 
         
-        console.log(xhttp.responseText);
+        console.log(type(xhttp.responseText));
 
         
     }
