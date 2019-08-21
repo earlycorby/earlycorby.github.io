@@ -10,12 +10,12 @@ function getAny() {
 }
 
 function getName(gender) {
-    var myObj = new JSON;
+    
     var fileOpen = new XMLHttpRequest();
     fileOpen.open('GET', './babynamesfromAll.json');
     fileOpen.onreadystatechange = function () {
         // alert(fileOpen.responseText);
-        myObj = this.JSON;
+        myObj = JSON.parse(this);
     }
     fileOpen.send();
     
