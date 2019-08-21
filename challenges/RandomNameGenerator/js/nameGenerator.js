@@ -16,7 +16,7 @@ function getName(gender) {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
-
+            name = myObj.gender[0];
             console.log(myObj);
 
 
