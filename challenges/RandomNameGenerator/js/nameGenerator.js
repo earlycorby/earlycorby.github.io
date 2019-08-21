@@ -10,52 +10,28 @@ function getAny() {
     document.getElementById("result").innerHTML = getName("ANY");
 }
 
-/*function getFile() {
-   
-    var xhttp = new XMLHttpRequest();
-    xhttp.open('GET', './babynamesfromAll.json', true);
-    xhttp.onload = function () {
-
-        
-        console.log(type(xhttp.responseText));
-
-        
-    }
-    xhttp.send();
-
-}  */
     
 function getName(gender) {
-    fetch('babynamesfromAll.json')
-        .then(function (response) {
-            if (response.status !== 200) {
-                console.log('Looks like there was a problem. Status Code: ' +
-                    response.status);
-                return;
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var myObj = JSON.parse(this.responseText);
+
+            console.log(myObj);
+
+
+            if (gender === "FEMALE") {
+
+            } else if (gender === "MALE") {
+
             }
-            // Examine the text in the response
-            response.text().then(function (data) {
-                console.log(type(data));
-              
-            });
-        })
-        .catch(function (err) {
-            console.log('Fetch Error :-S', err);
-        });
-   // console.log(data);
-    //getFile();
+            else {
 
-    if (gender === "FEMALE") {
+            }
 
-    } else if (gender === "MALE") {
-
+        }
     }
-    else {
-
-    }
-
-   
-
-
-
 }
+
+
+
