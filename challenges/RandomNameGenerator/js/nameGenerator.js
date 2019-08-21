@@ -12,21 +12,23 @@ function getAny() {
 
 function getFile() {
    
-    var fileOpen = new XMLHttpRequest();
-    fileOpen.open('GET', './babynamesfromAll.json', true);
-    fileOpen.onload = function () {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open('GET', './babynamesfromAll.json', true);
+    xhttp.send();
+    return xhttp.responseText;
+    //fileOpen.onload = function () {
         // alert(fileOpen.responseText);
         //var text = this.responseText;
         //console.log(typeof(text));
         //return JSON.parse(text);
-        string = this.responseText;
+       // string = this.responseText;
         //console.log(string);
-        return string;
-   };
-    console.log(string);
+       // return string;
+   //};
+    //console.log(string);
 
-    fileOpen.send();
-    return string;
+    ////fileOpen.send();
+    //return string;
 }  
     
 function getName(gender) {
