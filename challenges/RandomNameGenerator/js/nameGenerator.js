@@ -20,7 +20,7 @@ function getFile() {
         //return JSON.parse(text);
         //return this.responseText;
     //};
-    console.log(fileOpen);
+    console.log(fileOpen.responseText());
 
     fileOpen.send();
 }  
