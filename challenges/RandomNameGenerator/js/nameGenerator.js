@@ -34,7 +34,7 @@ function getName(gender) {
             }
             //console.log(names);
             var index = Math.floor(Math.random() * names.length) + 1;
-            console.log(index);
+            console.log(names[index]);
             return names;
 
         }
