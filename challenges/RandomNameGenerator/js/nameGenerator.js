@@ -14,7 +14,7 @@ function getFile() {
    
     var xhttp = new XMLHttpRequest();
     xhttp.open('GET', './babynamesfromAll.json', true);
-    xhttp.onreadystatechange = function () {
+    xhttp.onload = function () {
 
         
         console.log(xhttp.responseText);
@@ -26,6 +26,7 @@ function getFile() {
 }  
     
 function getName(gender) {
+    getFile();
 
     if (gender === "FEMALE") {
 
