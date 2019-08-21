@@ -34,7 +34,7 @@ function getName(gender) {
                 return;
             }
             // Examine the text in the response
-            response.json().then(function (data) {
+            response.text.then(function (data) {
                 console.log(type(data));
               
             });
