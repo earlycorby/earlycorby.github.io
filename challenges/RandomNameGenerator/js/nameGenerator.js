@@ -13,14 +13,14 @@ function getFile() {
    
     var fileOpen = new XMLHttpRequest();
     fileOpen.open('GET', './babynamesfromAll.json', true);
-    fileOpen.onload = function () {
+    //fileOpen.onload = function () {
         // alert(fileOpen.responseText);
         //var text = this.responseText;
         //console.log(typeof(text));
         //return JSON.parse(text);
-        return this.responseText;
-    };
-    console.log(fileOpen.responseText);
+        //return this.responseText;
+    //};
+    console.log(fileOpen);
 
     fileOpen.send();
 }  
