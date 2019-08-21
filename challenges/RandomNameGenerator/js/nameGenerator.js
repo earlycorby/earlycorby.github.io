@@ -10,7 +10,7 @@ function getAny() {
 }
 
 function getName(gender) {
-    var myObj = new JSON;
+    var myObj; 
     var fileOpen = new XMLHttpRequest();
     fileOpen.open('GET', './babynamesfromAll.json');
     fileOpen.onreadystatechange = function () {
