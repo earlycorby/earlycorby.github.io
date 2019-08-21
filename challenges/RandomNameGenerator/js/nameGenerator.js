@@ -14,7 +14,7 @@ function getFile() {
    
     var fileOpen = new XMLHttpRequest();
     fileOpen.open('GET', './babynamesfromAll.json', true);
-    fileOpen.onload = function () {
+    string = fileOpen.onload = function () {
         // alert(fileOpen.responseText);
         //var text = this.responseText;
         //console.log(typeof(text));
