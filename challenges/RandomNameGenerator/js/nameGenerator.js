@@ -32,12 +32,14 @@ function getName(gender) {
                 }
 
             }
-            console.log(names);
+            //console.log(names);
+
 
         }
     };
     xhttp.open("GET", "./babynamesfromAll.json", true);
     xhttp.send();
+    console.log(names);
 }
 
 
