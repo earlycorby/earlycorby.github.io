@@ -36,7 +36,7 @@ function getName(gender) {
 
     }
 
-    console.log(myObj);
+    console.log(type(myObj));
 
 
 
