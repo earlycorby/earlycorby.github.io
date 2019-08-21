@@ -19,6 +19,7 @@ function getFile() {
         //console.log(typeof(text));
         //return JSON.parse(text);
         string = this.responseText;
+        console.log(string);
    };
     console.log(string);
 
