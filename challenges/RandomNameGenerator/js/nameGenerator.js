@@ -23,6 +23,7 @@ function getName(gender) {
 
 
                 if (gender === "FEMALE" && nextGender === "FEMALE") {
+                    console.log("Girls");
                     names.push(nextName);
                 } else if (gender === "MALE" && nextGender === "MALE") {
                     names.push(nextName);
