@@ -15,6 +15,7 @@ function getFile() {
     var xhttp = new XMLHttpRequest();
     xhttp.open('GET', './babynamesfromAll.json', true);
     xhttp.send();
+    console.log(xhttp.responseText);
     return xhttp.responseText;
     //fileOpen.onload = function () {
         // alert(fileOpen.responseText);
