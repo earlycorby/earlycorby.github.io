@@ -17,7 +17,9 @@ function getFile() {
     xhttp.onload = function () {
 
         var nameArray = xhttp.responseText;
-        console.log(type(nameArray));
+        console.log(nameArray);
+
+        
     }
     xhttp.send();
     
@@ -39,7 +41,6 @@ function getFile() {
     
 function getName(gender) {
 
-    var myObj = getFile();
     if (gender === "FEMALE") {
 
     } else if (gender === "MALE") {
@@ -49,7 +50,7 @@ function getName(gender) {
 
     }
 
-    console.log(type(myObj));
+   
 
 
 
