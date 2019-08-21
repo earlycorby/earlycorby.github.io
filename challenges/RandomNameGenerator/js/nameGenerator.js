@@ -36,7 +36,7 @@ function getName(gender) {
 
     }
 
-    return myObj[0][0];
+    console.log(myObj);
 
 
 
