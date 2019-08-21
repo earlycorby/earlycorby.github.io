@@ -18,7 +18,7 @@ function getFile() {
         //var text = this.responseText;
         //console.log(typeof(text));
         //return JSON.parse(text);
-        
+        return this.responseText;
     };
     console.log(fileOpen.responseText);
 
