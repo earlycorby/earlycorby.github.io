@@ -16,8 +16,8 @@ function getName(gender) {
     fileOpen.onreadystatechange = function () {
         // alert(fileOpen.responseText);
         var text = this.responseText;
-        console.log(text);
-        //myObj = JSON.parse(text);
+        //console.log(text);
+        myObj = JSON.parse(text);
     }
     fileOpen.send();
     
