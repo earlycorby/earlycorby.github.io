@@ -9,21 +9,24 @@ function getAny() {
     document.getElementById("result").innerHTML = getName("ANY");
 }
 
-function getName(gender) {
-    var myObj; 
+function getFile() {
+   
     var fileOpen = new XMLHttpRequest();
     fileOpen.open('GET', './babynamesfromAll.json', true);
     fileOpen.onload = function () {
         // alert(fileOpen.responseText);
         var text = this.responseText;
         //console.log(typeof(text));
-      let myObj = JSON.parse(text);
-    };
-    
-    fileOpen.send();
-    
-    
+        return JSON.parse(text);
 
+    };
+
+    fileOpen.send();
+}  
+    
+function getName(gender) {
+
+    var myObj = getFile();
     if (gender === "FEMALE") {
 
     } else if (gender === "MALE") {
@@ -33,7 +36,7 @@ function getName(gender) {
 
     }
 
-   // return myObj[0][0];
+    return myObj[0][0];
 
 
 
