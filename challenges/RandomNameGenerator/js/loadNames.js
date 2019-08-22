@@ -40,3 +40,9 @@ function getBoys() {
 function getAll() {
     console.log(all);
 }
+
+function getRandomName(nameArray) {
+    var index = Math.floor(Math.random() * names.length) + 1;
+    console.log(nameArray[index]);
+    return nameArray[index];
+}
