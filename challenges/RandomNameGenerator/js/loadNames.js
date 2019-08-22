@@ -31,18 +31,21 @@ function loadfile(){
 }
 
 function getGirls() {
-    console.log(girls);
+    //console.log(girls);
+    document.getElementById("result").innerHTML = getRandomName(girls);
 }
 function getBoys() {
-    console.log(boys);
+    //console.log(boys);
+    document.getElementById("result").innerHTML = getRandomName(boys);
 }
 
 function getAll() {
-    console.log(all);
+    //console.log(all);
+    document.getElementById("result").innerHTML = getRandomName(all);
 }
 
 function getRandomName(nameArray) {
-    var index = Math.floor(Math.random() * names.length) + 1;
+    var index = Math.floor(Math.random() * names.length);
     console.log(nameArray[index]);
     return nameArray[index];
 }
