@@ -1,6 +1,6 @@
 var girls, boys, all;
 
-loadfile(){
+function loadfile(){
    
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
