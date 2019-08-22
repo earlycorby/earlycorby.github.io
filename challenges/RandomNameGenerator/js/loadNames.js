@@ -45,7 +45,7 @@ function getAll() {
 }
 
 function getRandomName(nameArray) {
-    var index = Math.floor(Math.random() * names.length);
+    var index = Math.floor(Math.random() * nameArray.length);
     console.log(nameArray[index]);
     return nameArray[index];
 }
