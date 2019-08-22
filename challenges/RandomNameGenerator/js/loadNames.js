@@ -1,4 +1,6 @@
-var girls, boys, all=[];
+var girls = [];
+var boys = [];
+var all = [];
 
 function loadfile(){
    
