@@ -12,12 +12,12 @@ function loadfile(){
                 var nextGender = myObj[i].gender;
                 var nextName = myObj[i].name;
                 if (nextGender === "FEMALE") {
-                    console.log("Girls");
+                   // console.log("Girls");
                     girls.push(nextName);
                     all.push(nextName);
                 } else if (nextGender === "MALE") {
                     console.log("boys");
-                    boys.push(nextName);
+                   // boys.push(nextName);
                     all.push(nextName);
                 } 
             }  
@@ -28,4 +28,8 @@ function loadfile(){
 
 
     return [girls, boys, all];
+}
+
+function getGirls() {
+    console.log(girls);
 }
