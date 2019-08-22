@@ -16,8 +16,8 @@ function loadfile(){
                     girls.push(nextName);
                     all.push(nextName);
                 } else if (nextGender === "MALE") {
-                    console.log("boys");
-                   // boys.push(nextName);
+                    //console.log("boys");
+                    boys.push(nextName);
                     all.push(nextName);
                 } 
             }  
@@ -32,4 +32,11 @@ function loadfile(){
 
 function getGirls() {
     console.log(girls);
+}
+function getBoys() {
+    console.log(boys);
+}
+
+function getAll() {
+    console.log(all);
 }
