@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+<script src="bezier.js"></script>
+    <title>Control Points of a Bezier Curve</title>
+</head>
+<body>
+This application can be used to quickly find the control points of a Bezier curve. It is not robust as it does no
+    error checking on the inputs. Also the left and right y-points should be equal.
+    <form id="frm1">
+        Left x-point: <input name="x0" id="x0" /><br />
+        Left y-point: <input name="y0" id="y0" /><br />
+        Right x-point: <input name="x1" id="x1" /><br />
+        Right y-point: <input  name="y1" id="y1" /><br />
+        Arch height: <input name="height" id="height" /><br />
+        <input type="button" onclick="findPoint() " value="Calculate">
+    </form>
+    
+  
+<div>
+    <p>The control points are :</p>
+    <p id="controlPoints"></p>
+</div>
+</body>
+</html>
